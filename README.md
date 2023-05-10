@@ -1,17 +1,8 @@
-# wallet connect app
-Straightforward code to help you connect your Website to Aptos wallet.
+# social connect app
+Here's how to connect your app to discord. 
 
-Currently Supported: 
-1. Petra 
-2. Pontem
-3. Rise
-4. Martian
-5. Spacecy 
+Prerequisites: \
+1. A discord bot, which needs to be present in each concerned guild.
+2. An independently running server to make the discord api calls from (discord api calls from the frontend except oauth2 ones fail over CORS issues
 
-We will keep adding more wallets as they become more popular.
-
-
-To Run Locally:
-
-npm run build \
-npm run start
+That's all! Do write to me if you get stuck. I know the documentation on the official site is terrible. :)
